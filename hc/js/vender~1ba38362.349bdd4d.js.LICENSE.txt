@@ -1,0 +1,1729 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  Copyright (c) 2018 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2022 Fonticons, Inc.
+ */
+
+/*! !!../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./log.scss */
+
+/*! !!../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./propertyTab.scss */
+
+/*! !!../../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./sceneExplorer.scss */
+
+/*! !!../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./colorPicker.scss */
+
+/*! !!../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./commandBar.scss */
+
+/*! !!../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./header.scss */
+
+/*! !!../../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./workbenchCanvas.scss */
+
+/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./main.scss */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../../../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../../../../controlTypes */
+
+/*! ../../../../diagram/coordinateHelper */
+
+/*! ../../../../globalState */
+
+/*! ../../../../imgs/makeChildOfContainerIcon.svg */
+
+/*! ../../../../imgs/makeComponentIcon.svg */
+
+/*! ../../../../imgs/visibilityActiveIcon.svg */
+
+/*! ../../../../imgs/visibilityNotActiveIcon.svg */
+
+/*! ../../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../../../commandButtonComponent */
+
+/*! ../../controlTypes */
+
+/*! ../../extensionsComponent */
+
+/*! ../../globalState */
+
+/*! ../../guiNodeTools */
+
+/*! ../../imgs/adtIcon.svg */
+
+/*! ../../imgs/collapsedIcon.svg */
+
+/*! ../../imgs/expandedIcon.svg */
+
+/*! ../../tools */
+
+/*! ../../treeItemLabelComponent */
+
+/*! ../colorPicker/colorPicker */
+
+/*! ../globalState */
+
+/*! ../gui/commonControlPropertyGridComponent */
+
+/*! ../imgs/babylonLogo.svg */
+
+/*! ../imgs/betaFlag.svg */
+
+/*! ../imgs/canvasFitIcon.svg */
+
+/*! ../imgs/cursor_rotate0.svg */
+
+/*! ../imgs/cursor_rotate1.svg */
+
+/*! ../imgs/cursor_rotate2.svg */
+
+/*! ../imgs/cursor_rotate3.svg */
+
+/*! ../imgs/cursor_rotate4.svg */
+
+/*! ../imgs/cursor_rotate5.svg */
+
+/*! ../imgs/cursor_rotate6.svg */
+
+/*! ../imgs/cursor_rotate7.svg */
+
+/*! ../imgs/cursor_scaleDiagonalLeft.svg */
+
+/*! ../imgs/cursor_scaleDiagonalRight.svg */
+
+/*! ../imgs/cursor_scaleHorizontal.svg */
+
+/*! ../imgs/cursor_scaleVertical.svg */
+
+/*! ../imgs/gizmoPivotIcon.svg */
+
+/*! ../imgs/guidesIcon.svg */
+
+/*! ../imgs/hamburgerIcon.svg */
+
+/*! ../imgs/handIcon.svg */
+
+/*! ../imgs/pointerIcon.svg */
+
+/*! ../imgs/toggleMixedIcon_30px.svg */
+
+/*! ../imgs/toggleOffIcon_30px.svg */
+
+/*! ../imgs/toggleOffIcon_40px.svg */
+
+/*! ../imgs/toggleOnIcon_30px.svg */
+
+/*! ../imgs/toggleOnIcon_40px.svg */
+
+/*! ../imgs/zoomIcon.svg */
+
+/*! ../index */
+
+/*! ../parentingPropertyGridComponent */
+
+/*! ../scss/commandBar.scss */
+
+/*! ../tools */
+
+/*! ./AbstractMenu */
+
+/*! ./ContextMenu */
+
+/*! ./ContextMenuTrigger */
+
+/*! ./MenuItem */
+
+/*! ./SubMenu */
+
+/*! ./actions */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-dom.development.js */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./cjs/react-jsx-runtime.development.js */
+
+/*! ./cjs/react.development.js */
+
+/*! ./cjs/scheduler-tracing.development.js */
+
+/*! ./cjs/scheduler.development.js */
+
+/*! ./colorComponentEntry */
+
+/*! ./colorPicker.scss */
+
+/*! ./colorPickerComponent */
+
+/*! ./commandButtonComponent */
+
+/*! ./commandDropdownComponent */
+
+/*! ./commonControlPropertyGridComponent */
+
+/*! ./components/commandBarComponent */
+
+/*! ./components/log/logComponent */
+
+/*! ./components/propertyTab/propertyTabComponent */
+
+/*! ./components/sceneExplorer/sceneExplorerComponent */
+
+/*! ./connectMenu */
+
+/*! ./containerPropertyGridComponent */
+
+/*! ./controlTypes */
+
+/*! ./coordinateHelper */
+
+/*! ./copy.svg */
+
+/*! ./diagram/artBoard */
+
+/*! ./diagram/coordinateHelper */
+
+/*! ./diagram/gizmoWrapper */
+
+/*! ./diagram/workbench */
+
+/*! ./entities/gui/controlTreeItemComponent */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./floatLineComponent */
+
+/*! ./gizmoGeneric */
+
+/*! ./gizmoLine */
+
+/*! ./gizmoScalePoint */
+
+/*! ./globalEventListener */
+
+/*! ./globalState */
+
+/*! ./guiEditor */
+
+/*! ./guiNodeTools */
+
+/*! ./helpers */
+
+/*! ./hexColor */
+
+/*! ./imgs/buttonIcon.svg */
+
+/*! ./imgs/checkboxIcon.svg */
+
+/*! ./imgs/colorPickerIcon.svg */
+
+/*! ./imgs/displaygridIcon.svg */
+
+/*! ./imgs/ellipseIcon.svg */
+
+/*! ./imgs/gridIcon.svg */
+
+/*! ./imgs/imageIcon.svg */
+
+/*! ./imgs/imageSliderIcon.svg */
+
+/*! ./imgs/inputFieldIcon.svg */
+
+/*! ./imgs/keyboardIcon.svg */
+
+/*! ./imgs/lineIcon.svg */
+
+/*! ./imgs/passwordFieldIcon.svg */
+
+/*! ./imgs/radioButtonIcon.svg */
+
+/*! ./imgs/rectangleIcon.svg */
+
+/*! ./imgs/scrollbarIcon.svg */
+
+/*! ./imgs/sliderIcon.svg */
+
+/*! ./imgs/stackPanelIcon.svg */
+
+/*! ./imgs/textBoxIcon.svg */
+
+/*! ./inputArrowsComponent */
+
+/*! ./keyboardManager */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./lib/has */
+
+/*! ./log.scss */
+
+/*! ./main.scss */
+
+/*! ./numericInputComponent */
+
+/*! ./portal */
+
+/*! ./propertyGrids/gui/buttonPropertyGridComponent */
+
+/*! ./propertyGrids/gui/checkboxPropertyGridComponent */
+
+/*! ./propertyGrids/gui/colorPickerPropertyGridComponent */
+
+/*! ./propertyGrids/gui/controlPropertyGridComponent */
+
+/*! ./propertyGrids/gui/displayGridPropertyGridComponent */
+
+/*! ./propertyGrids/gui/ellipsePropertyGridComponent */
+
+/*! ./propertyGrids/gui/gridPropertyGridComponent */
+
+/*! ./propertyGrids/gui/imageBasedSliderPropertyGridComponent */
+
+/*! ./propertyGrids/gui/imagePropertyGridComponent */
+
+/*! ./propertyGrids/gui/inputTextPropertyGridComponent */
+
+/*! ./propertyGrids/gui/linePropertyGridComponent */
+
+/*! ./propertyGrids/gui/radioButtonPropertyGridComponent */
+
+/*! ./propertyGrids/gui/rectanglePropertyGridComponent */
+
+/*! ./propertyGrids/gui/scrollViewerPropertyGridComponent */
+
+/*! ./propertyGrids/gui/sliderGenericPropertyGridComponent */
+
+/*! ./propertyGrids/gui/stackPanelPropertyGridComponent */
+
+/*! ./propertyGrids/gui/textBlockPropertyGridComponent */
+
+/*! ./propertyTab.scss */
+
+/*! ./sceneExplorer.scss */
+
+/*! ./scss/header.scss */
+
+/*! ./sharedComponents/messageDialog */
+
+/*! ./sliderLineComponent */
+
+/*! ./sliderPropertyGridComponent */
+
+/*! ./targetsProxy */
+
+/*! ./textInputLineComponent */
+
+/*! ./treeItemComponent */
+
+/*! ./treeItemSelectableComponent */
+
+/*! ./valueDownArrowIcon.svg */
+
+/*! ./valueUpArrowIcon.svg */
+
+/*! ./workbenchCanvas.scss */
+
+/*! ./workbenchEditor */
+
+/*! @fortawesome/fontawesome-svg-core */
+
+/*! @fortawesome/free-solid-svg-icons */
+
+/*! @fortawesome/react-fontawesome */
+
+/*! classnames */
+
+/*! core/Maths/math */
+
+/*! core/Maths/math.color */
+
+/*! core/Maths/math.vector */
+
+/*! core/Misc/dataStorage */
+
+/*! core/Misc/logger */
+
+/*! core/Misc/observable */
+
+/*! core/Misc/tools */
+
+/*! gui-editor/legacy/legacy */
+
+/*! gui/2D/advancedDynamicTexture */
+
+/*! gui/2D/controls/container */
+
+/*! gui/2D/controls/image */
+
+/*! gui/2D/controls/sliders/imageBasedSlider */
+
+/*! gui/2D/controls/textBlock */
+
+/*! gui/2D/math2D */
+
+/*! gui/2D/valueAndUnit */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-contextmenu */
+
+/*! react-dom */
+
+/*! react-is */
+
+/*! react/jsx-runtime */
+
+/*! scheduler */
+
+/*! scheduler/tracing */
+
+/*! shared-ui-components/imgs/LineSpacingIcon.svg */
+
+/*! shared-ui-components/imgs/addGridElementDark.svg */
+
+/*! shared-ui-components/imgs/addImageButtonIcon.svg */
+
+/*! shared-ui-components/imgs/addTextButtonIcon.svg */
+
+/*! shared-ui-components/imgs/alignVerticalIcon.svg */
+
+/*! shared-ui-components/imgs/alphaIcon.svg */
+
+/*! shared-ui-components/imgs/animationSheetIcon.svg */
+
+/*! shared-ui-components/imgs/autoResizeIcon.svg */
+
+/*! shared-ui-components/imgs/autoStretchHeightIcon.svg */
+
+/*! shared-ui-components/imgs/autoStretchWidthIcon.svg */
+
+/*! shared-ui-components/imgs/barOffsetIcon.svg */
+
+/*! shared-ui-components/imgs/cancelGridElementDark.svg */
+
+/*! shared-ui-components/imgs/cellIDIcon.svg */
+
+/*! shared-ui-components/imgs/checkboxIconDark.svg */
+
+/*! shared-ui-components/imgs/clampSliderValueIcon.svg */
+
+/*! shared-ui-components/imgs/clipChildrenIcon.svg */
+
+/*! shared-ui-components/imgs/clipContentsIcon.svg */
+
+/*! shared-ui-components/imgs/colorIcon.svg */
+
+/*! shared-ui-components/imgs/conerRadiusIcon.svg */
+
+/*! shared-ui-components/imgs/confirmGridElementDark.svg */
+
+/*! shared-ui-components/imgs/cropIcon.svg */
+
+/*! shared-ui-components/imgs/deleteGridElementDark.svg */
+
+/*! shared-ui-components/imgs/descendantsOnlyPaddingIcon.svg */
+
+/*! shared-ui-components/imgs/displayGridLine1Icon.svg */
+
+/*! shared-ui-components/imgs/displayGridLine2Icon.svg */
+
+/*! shared-ui-components/imgs/fillColorIcon.svg */
+
+/*! shared-ui-components/imgs/fontFamilyIcon.svg */
+
+/*! shared-ui-components/imgs/fontSizeIcon.svg */
+
+/*! shared-ui-components/imgs/fontStyleIcon.svg */
+
+/*! shared-ui-components/imgs/fontWeightIcon.svg */
+
+/*! shared-ui-components/imgs/frequencyIcon.svg */
+
+/*! shared-ui-components/imgs/gridColumnIconDark.svg */
+
+/*! shared-ui-components/imgs/gridRowIconDark.svg */
+
+/*! shared-ui-components/imgs/hAlignCenterIcon.svg */
+
+/*! shared-ui-components/imgs/hAlignLeftIcon.svg */
+
+/*! shared-ui-components/imgs/hAlignRightIcon.svg */
+
+/*! shared-ui-components/imgs/highlightIcon.svg */
+
+/*! shared-ui-components/imgs/horizontalMarginIcon.svg */
+
+/*! shared-ui-components/imgs/imageLinkIcon.svg */
+
+/*! shared-ui-components/imgs/lineDashIcon.svg */
+
+/*! shared-ui-components/imgs/linePoint1Icon.svg */
+
+/*! shared-ui-components/imgs/linePoint2Icon.svg */
+
+/*! shared-ui-components/imgs/marginsIcon.svg */
+
+/*! shared-ui-components/imgs/pivotIcon.svg */
+
+/*! shared-ui-components/imgs/positionIcon.svg */
+
+/*! shared-ui-components/imgs/resizeToFitIcon.svg */
+
+/*! shared-ui-components/imgs/rotationIcon.svg */
+
+/*! shared-ui-components/imgs/scaleIcon.svg */
+
+/*! shared-ui-components/imgs/scrollViewerPrecisionIcon.svg */
+
+/*! shared-ui-components/imgs/selectAllIcon.svg */
+
+/*! shared-ui-components/imgs/shadowBlurIcon.svg */
+
+/*! shared-ui-components/imgs/shadowColorIcon.svg */
+
+/*! shared-ui-components/imgs/shadowOffsetXIcon.svg */
+
+/*! shared-ui-components/imgs/showThumbIcon.svg */
+
+/*! shared-ui-components/imgs/sizeIcon.svg */
+
+/*! shared-ui-components/imgs/sliderBackgroundImageIcon.svg */
+
+/*! shared-ui-components/imgs/sliderValueIcon.svg */
+
+/*! shared-ui-components/imgs/sliderValueMaximumIcon.svg */
+
+/*! shared-ui-components/imgs/sliderValueMinimumIcon.svg */
+
+/*! shared-ui-components/imgs/stackPanelSpacingIcon.svg */
+
+/*! shared-ui-components/imgs/stretchFillIcon.svg */
+
+/*! shared-ui-components/imgs/strokeWeightIcon.svg */
+
+/*! shared-ui-components/imgs/subtractGridElementDark.svg */
+
+/*! shared-ui-components/imgs/textIcon.svg */
+
+/*! shared-ui-components/imgs/textInputIcon.svg */
+
+/*! shared-ui-components/imgs/textPlaceholderIcon.svg */
+
+/*! shared-ui-components/imgs/thumbCircleIcon.svg */
+
+/*! shared-ui-components/imgs/thumbImageLinkIcon.svg */
+
+/*! shared-ui-components/imgs/vAlignBottomIcon.svg */
+
+/*! shared-ui-components/imgs/vAlignCenterIcon.svg */
+
+/*! shared-ui-components/imgs/vAlignTopIcon.svg */
+
+/*! shared-ui-components/imgs/valueBarImageLinkIcon.svg */
+
+/*! shared-ui-components/imgs/valueChangedGridDark.svg */
+
+/*! shared-ui-components/imgs/verticalMarginIcon.svg */
+
+/*! shared-ui-components/imgs/verticalSliderIcon.svg */
+
+/*! shared-ui-components/imgs/widthIcon.svg */
+
+/*! shared-ui-components/imgs/wordWrapIcon.svg */
+
+/*! shared-ui-components/lines/checkBoxLineComponent */
+
+/*! shared-ui-components/lines/colorLineComponent */
+
+/*! shared-ui-components/lines/fileButtonLineComponent */
+
+/*! shared-ui-components/lines/floatLineComponent */
+
+/*! shared-ui-components/lines/iconComponent */
+
+/*! shared-ui-components/lines/optionsLineComponent */
+
+/*! shared-ui-components/lines/popup */
+
+/*! shared-ui-components/lines/sliderLineComponent */
+
+/*! shared-ui-components/lines/targetsProxy */
+
+/*! shared-ui-components/lines/textInputLineComponent */
+
+/*! shared-ui-components/lines/textLineComponent */
+
+/*! shared-ui-components/lines/unitButton */
+
+/*! shared-ui-components/stringTools */
+
+/*! shared-ui-components/tabs/propertyGrids/lockObject */
+
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+
+/*!**********************************************!*\
+  !*** ../../../tools/guiEditor/dist/index.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ../../../tools/guiEditor/dist/tools.js ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ../../../../node_modules/react/index.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ../../../tools/guiEditor/dist/main.scss ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ../../../tools/guiEditor/dist/portal.js ***!
+  \***********************************************/
+
+/*!**************************************************!*\
+  !*** ../../../tools/guiEditor/dist/guiEditor.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ../../../../node_modules/react-dom/index.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ../../../../node_modules/scheduler/index.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ../../../../node_modules/classnames/index.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ../../../../node_modules/prop-types/index.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ../../../tools/guiEditor/dist/globalState.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ../../../../node_modules/react/jsx-runtime.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ../../../../node_modules/scheduler/tracing.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ../../../tools/guiEditor/dist/controlTypes.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ../../../tools/guiEditor/dist/guiNodeTools.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ../../../../node_modules/prop-types/lib/has.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/adtIcon.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/legacy/legacy.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/scss/header.scss ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../../node_modules/object-assign/index.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/betaFlag.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/gridIcon.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/handIcon.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/lineIcon.svg ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/zoomIcon.svg ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/imageIcon.svg ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/keyboardManager.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/workbenchEditor.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/artBoard.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/buttonIcon.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/guidesIcon.svg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/sliderIcon.svg ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/gizmoLine.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/workbench.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/babylonLogo.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/ellipseIcon.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/pointerIcon.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/textBoxIcon.svg ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/scss/commandBar.scss ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/copy.svg ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/popup.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/stringTools.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/checkboxIcon.svg ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/expandedIcon.svg ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/keyboardIcon.svg ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/canvasFitIcon.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/collapsedIcon.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/hamburgerIcon.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/rectangleIcon.svg ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/scrollbarIcon.svg ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../../node_modules/prop-types/checkPropTypes.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/log/log.scss ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/gizmoGeneric.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/gizmoWrapper.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate0.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate1.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate2.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate3.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate4.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate5.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate6.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_rotate7.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/gizmoPivotIcon.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/inputFieldIcon.svg ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/stackPanelIcon.svg ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/cropIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/sizeIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/textIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/colorPickerIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/displaygridIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/imageSliderIcon.svg ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/radioButtonIcon.svg ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/runtime/api.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/index.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../../node_modules/react/cjs/react.development.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/alphaIcon.svg ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/colorIcon.svg ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/pivotIcon.svg ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/scaleIcon.svg ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/widthIcon.svg ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/cellIDIcon.svg ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/unitButton.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/gizmoScalePoint.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/makeComponentIcon.svg ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/passwordFieldIcon.svg ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/SubMenu.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/actions.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/helpers.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/marginsIcon.svg ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/coordinateHelper.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/MenuItem.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/fontSizeIcon.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/lineDashIcon.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/positionIcon.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/rotationIcon.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/wordWrapIcon.svg ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/targetsProxy.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/diagram/workbenchCanvas.scss ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/barOffsetIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/fillColorIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/fontStyleIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/frequencyIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/highlightIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/imageLinkIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/selectAllIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/showThumbIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/textInputIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/vAlignTopIcon.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/iconComponent.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_scaleVertical.svg ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/visibilityActiveIcon.svg ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/colorPicker/hexColor.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/autoResizeIcon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/fontFamilyIcon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/fontWeightIcon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/hAlignLeftIcon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/linePoint1Icon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/linePoint2Icon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/shadowBlurIcon.svg ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/log/logComponent.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/ContextMenu.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/connectMenu.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/LineSpacingIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/conerRadiusIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/gridRowIconDark.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/hAlignRightIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/resizeToFitIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/shadowColorIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/sliderValueIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/stretchFillIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/thumbCircleIcon.svg ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_scaleHorizontal.svg ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../../node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/AbstractMenu.js ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/checkboxIconDark.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/clipChildrenIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/clipContentsIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/hAlignCenterIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/strokeWeightIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/vAlignBottomIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/vAlignCenterIcon.svg ***!
+  \**********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/visibilityNotActiveIcon.svg ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../../node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../../node_modules/react-dom/cjs/react-dom.development.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../../node_modules/scheduler/cjs/scheduler.development.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/colorPicker/colorPicker.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/addTextButtonIcon.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/alignVerticalIcon.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/shadowOffsetXIcon.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/toggleOnIcon_30px.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/toggleOnIcon_40px.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/textLineComponent.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/valueUpArrowIcon.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/commandBarComponent.js ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_scaleDiagonalLeft.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/makeChildOfContainerIcon.svg ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/sharedComponents/messageDialog.js ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/addGridElementDark.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/addImageButtonIcon.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/animationSheetIcon.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/gridColumnIconDark.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/thumbImageLinkIcon.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/toggleOffIcon_30px.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/toggleOffIcon_40px.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/verticalMarginIcon.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/verticalSliderIcon.svg ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/colorLineComponent.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/floatLineComponent.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/imgs/cursor_scaleDiagonalRight.svg ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/colorPicker/colorPicker.scss ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/textPlaceholderIcon.svg ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/sliderLineComponent.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/valueDownArrowIcon.svg ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../../node_modules/prop-types/node_modules/react-is/index.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/autoStretchWidthIcon.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/clampSliderValueIcon.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/displayGridLine1Icon.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/displayGridLine2Icon.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/horizontalMarginIcon.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/toggleMixedIcon_30px.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/valueChangedGridDark.svg ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/colorPickerComponent.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/inputArrowsComponent.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/optionsLineComponent.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/commandButtonComponent.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../../node_modules/@fortawesome/react-fontawesome/index.es.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../../node_modules/react/cjs/react-jsx-runtime.development.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/autoStretchHeightIcon.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/cancelGridElementDark.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/deleteGridElementDark.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/stackPanelSpacingIcon.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/valueBarImageLinkIcon.svg ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/checkBoxLineComponent.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/numericInputComponent.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/ContextMenuTrigger.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/confirmGridElementDark.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/sliderValueMaximumIcon.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/sliderValueMinimumIcon.svg ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/textInputLineComponent.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/commandDropdownComponent.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../../../../node_modules/react-contextmenu/es6/globalEventListener.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/subtractGridElementDark.svg ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/lines/fileButtonLineComponent.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/tabs/propertyGrids/lockObject.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyTab.scss ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ../../../../node_modules/@fortawesome/fontawesome-svg-core/index.es.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ../../../../node_modules/@fortawesome/free-solid-svg-icons/index.es.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ../../../../node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/colorPicker/colorComponentEntry.js ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/scrollViewerPrecisionIcon.svg ***!
+  \*******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/sliderBackgroundImageIcon.svg ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ../../../dev/sharedUiComponents/dist/imgs/descendantsOnlyPaddingIcon.svg ***!
+  \********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/sceneExplorer.scss ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/parentingPropertyGridComponent.js ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/treeItemComponent.js ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyTabComponent.js ***!
+  \************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/extensionsComponent.js ***!
+  \*************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \**************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/sceneExplorerComponent.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/treeItemLabelComponent.js ***!
+  \****************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ../../../../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/treeItemSelectableComponent.js ***!
+  \*********************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/sceneExplorer/entities/gui/controlTreeItemComponent.js ***!
+  \*******************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/gridPropertyGridComponent.js ***!
+  \***********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/linePropertyGridComponent.js ***!
+  \***********************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/imagePropertyGridComponent.js ***!
+  \************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/buttonPropertyGridComponent.js ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/sliderPropertyGridComponent.js ***!
+  \*************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/controlPropertyGridComponent.js ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/ellipsePropertyGridComponent.js ***!
+  \**************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/checkboxPropertyGridComponent.js ***!
+  \***************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/containerPropertyGridComponent.js ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/inputTextPropertyGridComponent.js ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/rectanglePropertyGridComponent.js ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/textBlockPropertyGridComponent.js ***!
+  \****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/stackPanelPropertyGridComponent.js ***!
+  \*****************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/colorPickerPropertyGridComponent.js ***!
+  \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/displayGridPropertyGridComponent.js ***!
+  \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/radioButtonPropertyGridComponent.js ***!
+  \******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/scrollViewerPropertyGridComponent.js ***!
+  \*******************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/commonControlPropertyGridComponent.js ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/sliderGenericPropertyGridComponent.js ***!
+  \********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** external {"root":"BABYLON","commonjs":"@babylonjs/core","commonjs2":"@babylonjs/core","amd":"@babylonjs/core"} ***!
+  \**********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** ../../../tools/guiEditor/dist/components/propertyTab/propertyGrids/gui/imageBasedSliderPropertyGridComponent.js ***!
+  \***********************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** external {"root":["BABYLON","GUI"],"commonjs":"@babylonjs/gui","commonjs2":"@babylonjs/gui","amd":"@babylonjs/gui"} ***!
+  \***************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/main.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/scss/header.scss ***!
+  \***************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/scss/commandBar.scss ***!
+  \*******************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/components/log/log.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/diagram/workbenchCanvas.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../dev/sharedUiComponents/dist/colorPicker/colorPicker.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/components/propertyTab/propertyTab.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!../../../tools/guiEditor/dist/components/sceneExplorer/sceneExplorer.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+
+/**
+ * Checks if an event is supported in the current execution environment.
+ *
+ * NOTE: This will not work correctly for non-generic events such as `change`,
+ * `reset`, `load`, `error`, and `select`.
+ *
+ * Borrows from Modernizr.
+ *
+ * @param {string} eventNameSuffix Event name, e.g. "click".
+ * @return {boolean} True if the event is supported.
+ * @internal
+ * @license Modernizr 3.0.0pre (Custom Build) | MIT
+ */
+
+/** @license React v0.20.2
+ * scheduler-tracing.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v0.20.2
+ * scheduler.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-dom.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-jsx-runtime.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
